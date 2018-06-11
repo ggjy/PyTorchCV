@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# Author: Zhixiang Duan(zhixiangduan@deepmotion.ai)
-# Modified: Xiangtai Li(lxt)
+# Author: Donny You(youansheng@gmail.com)
 # VOC det data generator.
 
 
