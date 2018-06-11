@@ -30,32 +30,32 @@ This repository provides source code for some deep learning based cv problems. W
 - Train the openpose model
 ```bash
 python main.py  --hypes hypes/pose/coco/op_coco_pose.json \
-                    --base_lr 0.001 \
-                    --phase train
+                --base_lr 0.001 \
+                --phase train
 ```
 
 - Finetune the openpose model
 ```bash
 python main.py  --hypes hypes/pose/coco/op_coco_pose.json \
-                    --base_lr 0.001 \
-                    --phase train \
-                    --resume checkpoints/pose/coco/coco_open_pose_65000.pth
+                --base_lr 0.001 \
+                --phase train \
+                --resume checkpoints/pose/coco/coco_open_pose_65000.pth
 ```
 
 - Test the openpose model(test_img):
 ```bash
 python main.py  --hypes hypes/pose/coco/op_coco_pose.json \
-                    --phase test \
-                    --resume checkpoints/pose/coco/coco_open_pose_65000.pth \
-                    --test_img val/samples/ski.jpg
+                --phase test \
+                --resume checkpoints/pose/coco/coco_open_pose_65000.pth \
+                --test_img val/samples/ski.jpg
 ```
 
 - Test the openpose model(test_dir):
 ```bash
 python main.py  --hypes hypes/pose/coco/op_coco_pose.json \
-                    --phase test \
-                    --resume checkpoints/pose/coco/coco_open_pose_65000.pth \
-                    --test_dir val/samples
+                --phase test \
+                --resume checkpoints/pose/coco/coco_open_pose_65000.pth \
+                --test_dir val/samples
 ```
 
 - Attention: Other command line parameters are showed in main file. You can refer & use them.
