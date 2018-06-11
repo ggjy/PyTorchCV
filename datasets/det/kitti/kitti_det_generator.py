@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# Author: Zhixiang Duan(zhixiangduan@deepmotion.ai)
+# Author: Donny You(youansheng@gmail.com)
 # KITTI det data generator.
 
 
