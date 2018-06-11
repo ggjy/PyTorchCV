@@ -2,7 +2,7 @@
 ```
 @misc{CV2018,
   author =       {Donny You (youansheng@gmail.com)},
-  howpublished = {\url{http://gitlab.deepmotion.ai/donny/PytorchCV}},
+  howpublished = {\url{http://github.com/donny/PytorchCV}},
   year =         {2018}
 }
 ```
