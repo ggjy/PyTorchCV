@@ -1,0 +1,10 @@
+cython
+numpy
+cffi
+opencv-python
+scipy
+easydict
+matplotlib
+Pillow
+pyyaml
+visdom
